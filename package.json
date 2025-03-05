@@ -1,0 +1,34 @@
+{
+  "name": "diremover",
+  "keywords": [
+    "chalk",
+    "cli",
+    "directory remover",
+    "tool"
+  ],
+  "author": "nidexingg",
+  "license": "MIT",
+  "description": "Nothing! Just CLI...",
+  "version": "0.0.2",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./index.js",
+  "homepage": "https://nidexingg.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nidexingg/diremover.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.10.0",
+    "chalk": "^5.4.1",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.8.0",
+    "fs-extra": "^11.3.0",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^12.4.2",
+    "nanospinner": "^1.2.2"
+  }
+}
